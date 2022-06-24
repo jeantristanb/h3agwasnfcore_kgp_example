@@ -6,7 +6,7 @@ command line used to created dataset using [h3agwas pipeline](https://github.com
 ```
 nextflow run h3abionet/h3agwas/utils/build_example_data/main.nf --pos_allgeno utils/h3agwas_all.pos  -resume -profile slurmSingularity --list_chro 1-22,X --list_chro_pheno 1-22 --output_dir allchro --output allchro
 ```
- dataset, can be [download here](https://www.dropbox.com/s/k0ohmk445usn3ob/allchro.tgz?dl=0) has been build followed :
+ dataset, can be [download here](https://www.dropbox.com/s/k0ohmk445usn3ob/allchro.tgz?dl=0) (mdm5 : 842ff36935cd8cc1784cb3db21b9c45f) has been build followed :
 * extraction of [h3abionet array](https://www.h3abionet.org/h3africa-chip) positions
 * position from array extracted from [1000Genome v37, release:20130502](ftp://ftp.1000genomes.ebi.ac.uk:21/vol1/ftp/release/20130502/) and format in plink
 * some sex has been changed to add error
